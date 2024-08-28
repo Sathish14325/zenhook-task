@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* header start */
+header{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 30px;
+    margin: 5px;
+    /* height: 10px; */
+}
+.btns a{
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.btns a:last-child{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.btns a:first-child:hover{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.btns a:last-child:hover{
+    background-color: black;
+    color: white;
+}
+
+/* header end */
+
+/* main start */
+.main-section{
+    width: 90%;
+    margin: auto;
+}
+main{
+    padding: 10px 0px;
+}
+main h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+main p{
+    font-size: 20px;
+}
+.bottom{
+    display: flex;
+    gap: 25px;
+}
+.bottom a:first-child{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+.bottom a:last-child{
+    border: none;
+    border-left:3px solid black ;
+    border-right:3px solid black ;
+    border-radius: 30px;
+}
+.brands{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 10px;
+}
+.brands p{
+    color: gray;
+}
+.brand{
+    display: flex;
+    /* gap: 10px; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.brand img{
+    height: 25px;
+}
+/* main end */
