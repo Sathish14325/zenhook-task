@@ -29,3 +29,8 @@ This repository contains a **simple page template** built with **HTML**, **CSS**
 
    ```bash
    git clone https://github.com/yourusername/simple-page-template.git
+
+
+Preview
+
+![Preview](https://github.com/github/github/raw/master/images/logos/octocat.png)
